@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  background-color: #09060d;
+}
+.slide {
+  min-width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 450vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.one {
+  padding-top: 100px;
+
+}
+
+.portifolio {
+  width: 100vw;
+  padding-top: 100px;
+}
+
+.aboutus {
+  width: 150vw;
+}
+
+.contact {
+  padding-top: 100px;
+
+}
+
+.navbar {
+  position: fixed;
+  height: 100vh;
+}

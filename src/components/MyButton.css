@@ -1,0 +1,29 @@
+.button {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 5px #5d95fd;
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+  position: absolute;
+
+  border: 1px dashed #ffffff;
+  box-sizing: border-box;
+}
+
+a{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
