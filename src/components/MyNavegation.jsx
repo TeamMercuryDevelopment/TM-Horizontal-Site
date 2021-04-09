@@ -1,28 +1,28 @@
 import "./MyNavegation.css"
 import React from 'react';
-// import MyButton from './MyButton';
 import Button from '@material-ui/core/Button';
 import Toolbar from '@material-ui/core/Toolbar';
 import AppBar from '@material-ui/core/AppBar';
-import { makeStyles } from '@material-ui/core'
+import { makeStyles, Typography } from '@material-ui/core'
+import { Link } from "@material-ui/icons";
 
 const useStyles = makeStyles({
   appBar: {
-    left: 0,
-    position: 'absolute',
-    width: '100vw',
-    height: 100,
     backgroundColor: 'rgba(0, 0, 0, 0.49)',
   },
   toolbar: {
     height: 100,
-    display: 'flex',
-    flexDirection: 'row',
-    marginRight: 'auto',
   },
   button: {
     marginLeft: 10,
-  }
+  },
+  title: {
+    flexGrow: 1,
+  },
+  titleLink: {
+    color: 'inherit',
+    textDecoration: 'none',
+  },
 
 })
 
@@ -32,6 +32,26 @@ export default function MyNavigation() {
 
   return (
     <div className="slide-container">
+      <AppBar
+        className={classes.appBar}
+      >
+        <Toolbar
+          className={classes.toolbar}
+        >
+          <Typography
+            className={classes.title}
+            variant="h4"
+            color="secondary"
+          >
+            <a 
+              className={classes.titleLink}
+              href="#titulo"
+            >
+              TEAM MERCURY
+            </a>
+          </Typography>
+
+
           <Button
             className={classes.button}
             variant="outlined"
@@ -56,18 +76,11 @@ export default function MyNavigation() {
             color="secondary"
             size="large"
             href="#contato"
-            >
+          >
             Contato
           </Button>
-      {/* <AppBar
-        className={classes.appBar}
-      >
-        <Toolbar
-          className={classes.toolbar}
-        >
-          
         </Toolbar>
-      </AppBar> */}
+      </AppBar>
     </div>
   );
 }
