@@ -10,19 +10,17 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 
 const useStyles = makeStyles((theme) => ({
-  paper: {
-  },
   avatar: {
     width: '10vw',
-    height: '10vw'
+    height: '10vw',
   },
   typography: {
-    marginTop:10
-  }, 
+    marginTop: theme.spacing(3),
+  },
   icon: {
     fontSize: 50,
-    padding: 10,
-    marginTop: 10,
+    padding: theme.spacing(3),
+    marginTop: theme.spacing(3),
   },
 }));
 
@@ -46,13 +44,13 @@ export default function CardAboutUs(props) {
 
         <Typography
           className={classes.typography}
-          variant="h4"
+          variant="h5"
           color="secondary"
         >
           {props.nome}
         </Typography>
 
-        <IconButton 
+        <IconButton
           aria-label="redirect"
           href={props.twitter}
         >
@@ -62,7 +60,7 @@ export default function CardAboutUs(props) {
           />
         </IconButton>
 
-        <IconButton 
+        <IconButton
           aria-label="redirect"
           href={props.github}
         >
@@ -72,7 +70,7 @@ export default function CardAboutUs(props) {
           />
         </IconButton>
 
-        <IconButton 
+        <IconButton
           aria-label="redirect"
           href={props.linkedin}
         >

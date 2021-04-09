@@ -5,6 +5,16 @@ body {
   background-color: #09060d;
 }
 
+.main-background{
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .particles{
   height: 100vh;
 }
@@ -16,7 +26,7 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 450vw;
+  width: 500vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
@@ -37,7 +47,6 @@ body {
 
 .title {
   padding-top: 100px;
-
 }
 
 .portifolio {
@@ -46,12 +55,11 @@ body {
 }
 
 .aboutus {
-  width: 150vw;
+  width: 250vw;
 }
 
 .contact {
   padding-top: 100px;
-
 }
 
 .navbar {
