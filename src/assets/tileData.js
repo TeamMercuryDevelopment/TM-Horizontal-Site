@@ -1,12 +1,12 @@
-import App123 from '../assets/imgs/app123.jpg';
-import Destiny from '../assets/imgs/destiny.jpg';
-import Nerdstore from '../assets/imgs/nerdstore.jpg';
-import Pinterest from '../assets/imgs/pinterest.jpg';
-import Roll20 from '../assets/imgs/roll20.jpg';
-import Twitch from '../assets/imgs/twitch.jpg';
-import Huaban from '../assets/imgs/huaban.jpg';
-import Submarino from '../assets/imgs/submarino.jpg';
-import Whimsical from '../assets/imgs/whimsical.jpg';
+import App123 from '../assets/imgs/portifolio/app123.jpg';
+import Destiny from '../assets/imgs/portifolio/destiny.jpg';
+import Nerdstore from '../assets/imgs/portifolio/nerdstore.jpg';
+import Pinterest from '../assets/imgs/portifolio/pinterest.jpg';
+import Roll20 from '../assets/imgs/portifolio/roll20.jpg';
+import Twitch from '../assets/imgs/portifolio/twitch.jpg';
+import Huaban from '../assets/imgs/portifolio/huaban.jpg';
+import Submarino from '../assets/imgs/portifolio/submarino.jpg';
+import Whimsical from '../assets/imgs/portifolio/whimsical.jpg';
 
 const tileData = [
 
@@ -16,6 +16,7 @@ const tileData = [
     author: 'Eu',
     link: 'https://www.youtube.com/watch?v=n8Q-smqaUgA&list=PLBYcHT1EUUr8_ESZ7yohfJ1i5_Ith51u8&index=208',
     cols: 1,
+    quote: "Teste"
   },
   {
     img: Destiny,
