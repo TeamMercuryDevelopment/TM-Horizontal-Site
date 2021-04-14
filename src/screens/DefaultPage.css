@@ -47,6 +47,7 @@ body {
 
 .title {
   padding-top: 100px;
+  animation: transitionIn 5s;
 }
 
 .portifolio {
@@ -64,6 +65,27 @@ body {
 
 .navbar {
   position: fixed;
-  height: 100px;
   z-index: 2;
+  
+  animation: transitionIn 2s;
+}
+
+.groupbutton {
+  position: fixed;
+  left: 1%;
+  top: 30%;
+  z-index: 2;
+  
+  
+  animation: transitionIn 3s;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

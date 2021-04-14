@@ -1,10 +1,10 @@
 import React from 'react'
 import "../screens/DefaultPage.css"
 import MyNavigation from '../components/MyNavegation.jsx'
+import MyGroupButton from '../components/MyGroupButton.jsx'
 import Title from './Title'
 import Portifolio from './Portifolio'
 import AboutUs from './AboutUs'
-import Contact from './Contact'
 import Particles from 'react-particles-js'
 
 const particlesParams = {
@@ -124,6 +124,9 @@ export default function DefaultPage() {
       <div className="navbar">
         <MyNavigation />
       </div>
+      <div className="groupbutton">
+        <MyGroupButton />
+      </div>
 
       <div className="outer-wrapper">
         <div className="wrapper">
@@ -136,12 +139,9 @@ export default function DefaultPage() {
           <div id="sobrenos" className="slide aboutus">
             <AboutUs />
           </div>
-          <div id="contato" className="slide contact">
-            <Contact />
-          </div>
         </div>
       </div>
-      
+
       <Particles className="particles" params={particlesParams} />
     </div>
   )

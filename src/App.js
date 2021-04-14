@@ -32,7 +32,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/">
-            <DefaultPage />
+            <DefaultPage/>
           </Route>
         </Switch>
       </Router>
