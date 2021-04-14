@@ -8,7 +8,7 @@ import { Container } from '@material-ui/core';
 const useStyles = makeStyles((theme) => ({
   paper: {
     height: '90vh',
-    width: 539,
+    width: '100%',
     marginTop: 100,
     paddingTop: 50,
     backgroundColor: "transparent",
