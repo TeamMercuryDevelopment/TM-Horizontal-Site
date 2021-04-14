@@ -6,25 +6,28 @@ import AppBar from '@material-ui/core/AppBar';
 import { makeStyles, Typography } from '@material-ui/core'
 import { Link } from "@material-ui/icons";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   appBar: {
     backgroundColor: 'rgba(0, 0, 0, 0.49)',
   },
   toolbar: {
-    height: 100,
+    height: 90,
   },
   button: {
     marginLeft: 10,
+    fontWeight: theme.typography.fontWeightRegular,
+    color: theme.palette.secondary.light,
   },
   title: {
     flexGrow: 1,
+    color: theme.palette.secondary.light,
   },
   titleLink: {
     color: 'inherit',
     textDecoration: 'none',
   },
 
-})
+}))
 
 
 export default function MyNavigation() {
@@ -41,9 +44,8 @@ export default function MyNavigation() {
           <Typography
             className={classes.title}
             variant="h4"
-            color="secondary"
           >
-            <a 
+            <a
               className={classes.titleLink}
               href="#titulo"
             >
@@ -55,7 +57,6 @@ export default function MyNavigation() {
           <Button
             className={classes.button}
             variant="outlined"
-            color="secondary"
             size="large"
             href="#portifolio"
           >
@@ -64,20 +65,9 @@ export default function MyNavigation() {
           <Button
             className={classes.button}
             variant="outlined"
-            color="secondary"
-            size="large"
             href="#sobrenos"
           >
             Sobre Nós
-          </Button>
-          <Button
-            className={classes.button}
-            variant="outlined"
-            color="secondary"
-            size="large"
-            href="#contato"
-          >
-            Contato
           </Button>
         </Toolbar>
       </AppBar>

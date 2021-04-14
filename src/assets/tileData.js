@@ -14,57 +14,73 @@ const tileData = [
     img: App123,
     title: 'app123',
     author: 'Eu',
-    link: 'https://www.youtube.com/watch?v=n8Q-smqaUgA&list=PLBYcHT1EUUr8_ESZ7yohfJ1i5_Ith51u8&index=208',
+    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     cols: 1,
-    quote: "Teste"
+    quote: "1"
   },
   {
     img: Destiny,
     title: 'Destiny',
     author: 'Eu',
+    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     cols: 1,
+    quote: "2"
   },
   {
     img: Nerdstore,
     title: 'Nerdstore',
     author: 'Eu',
+    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     cols: 1,
+    quote: "3"
   },
   {
     img: Pinterest,
     title: 'Pinterest',
     author: 'Eu',
+    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     cols: 1,
+    quote: "4"
   },
   {
     img: Roll20,
     title: 'Roll20',
     author: 'Eu',
+    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     cols: 1,
+    quote: "5"
   },
   {
     img: Twitch,
     title: 'Twitch',
     author: 'Eu',
+    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     cols: 1,
+    quote: "6"
   },
   {
     img: Huaban,
     title: 'Huaban',
     author: 'Eu',
+    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     cols: 1,
+    quote: "7"
   },
   {
     img: Submarino,
     title: 'Submarino',
     author: 'Eu',
+    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     cols: 1,
+    quote: "8"
   },
   {
     img: Whimsical,
     title: 'Whimsical',
     author: 'Eu',
+    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     cols: 1,
+    quote: "9"
   },
 ];
 
